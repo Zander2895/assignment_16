@@ -1,6 +1,6 @@
 class DataParser:
     def parse_weather_data(self, data):
-        # Function to parse weather data
+        
         if not data:
             return "Weather data not available"
         city = data["city"]
